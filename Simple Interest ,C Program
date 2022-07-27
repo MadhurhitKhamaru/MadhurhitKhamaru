@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int p;
+float n,r,si;
+printf("\nEnter the Amount:-",p);
+scanf("%d\n",&p);
+printf("\nEnter the Years:-",n);
+scanf("%f\n",&n);
+printf("\nEnter the Rate:-",r);
+scanf("%f\n",&r);
+si=p*n*r/100;
+printf("%f\nThe answer is:-",si);
+return 0;
+}
